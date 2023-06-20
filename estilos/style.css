@@ -36,9 +36,9 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.041);
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease; /* SUAVIZA A TRANSIÇÃO*/
 }
@@ -80,7 +80,6 @@ div.campo > label {
 
 div.campo > span {
     color: white;
-    background-color: black;
     font-size: 2em;
     width: 40px;
     padding: 5px;
@@ -89,16 +88,20 @@ div.campo > span {
 div.campo > input {
     background-color: white;
     font-size: 1em;
-    width: calc(100% -20px);
-    transform: translateY(10px);
-    transform: translateX(40px);
+    width: 80.95%;
     border: 0px;
+    height: 95%;
     border-radius: 8px;
-    padding: 5px;
-    height: 100%;
+    padding: 4px;
+    padding-right: 100px;
+    transform: translateY(-10.5px);
+    
 
-    /* CONFERIR O COD DE CIMA */
-       
+}
+
+div.campo > input:focus-within {
+    background-color: #EBF1F2;
+    border:none;
 }
 
 form > input[type=submit] {
@@ -111,8 +114,6 @@ form > input[type=submit] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    padding-top: 5px;
-    margin: 5px;
 }
 
 form > input[type=submit]:hover {
@@ -131,7 +132,7 @@ form > a.botao {
     text-decoration: none;
     color: #6f8797;
     padding-top: 5px;
-    margin: 5px;
+    margin: 1px;
 }
 
 form > a.botao:hover {

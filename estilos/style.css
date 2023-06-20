@@ -88,12 +88,12 @@ div.campo > span {
 div.campo > input {
     background-color: white;
     font-size: 1em;
-    width: 70%;
+    width: 80.6%;
     padding: 4px;
     border: 0px;
     border-radius: 8px;
     height: 100%;
-    transform: translateY(-10px);
+    transform: translateY(-11px);
 }
 
 div.campo > input:focus-within {

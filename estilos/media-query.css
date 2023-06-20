@@ -18,12 +18,18 @@
         float: right;
         width: 70%;
     }
+    div.campo > input {
+        width: 89.3%;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, #EBF1F2, #ecdfe2);
         }
+
+
     
     section#login {
         width: 950px;
@@ -44,6 +50,10 @@
     }
     div#formulario > h1{
         font-size: 2em;
+    }
+
+    div.campo > input {
+        width: 90%;
     }
 
 }
